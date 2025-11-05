@@ -1,0 +1,58 @@
+body{
+  font-family: 'poppins', sans-serif;
+}
+
+#headers{
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000ff;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  gap: 40px;
+  border-radius: 10px;
+}
+
+.sub{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-input{
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input1, .input2 {
+  padding: 10px;
+  width: 350px;
+  border-radius: 10px;
+  border-width: 1px;
+  outline: none;
+}
+
+#description{
+  padding: 30px;
+  width: 300px;
+  outline: none;
+}
+
+#add-button{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
